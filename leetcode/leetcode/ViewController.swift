@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//       print(three.lengthOfLongestSubstring("abcabc"))
+      print(three.reverse(-214))
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 

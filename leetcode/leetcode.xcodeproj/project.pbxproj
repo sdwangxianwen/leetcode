@@ -15,6 +15,9 @@
 		1E1905DF21E977B100434823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1905DD21E977B100434823 /* LaunchScreen.storyboard */; };
 		1E1905EA21E977B100434823 /* leetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1905E921E977B100434823 /* leetcodeTests.swift */; };
 		1E1905F521E977B100434823 /* leetcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1905F421E977B100434823 /* leetcodeUITests.swift */; };
+		1E19060721E978C100434823 /* one.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E19060621E978C100434823 /* one.swift */; };
+		1E19060921E97A3B00434823 /* two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E19060821E97A3B00434823 /* two.swift */; };
+		1E19060B21E97C0E00434823 /* three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E19060A21E97C0E00434823 /* three.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1E1905F021E977B100434823 /* leetcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leetcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1905F421E977B100434823 /* leetcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcodeUITests.swift; sourceTree = "<group>"; };
 		1E1905F621E977B100434823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E19060621E978C100434823 /* one.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one.swift; sourceTree = "<group>"; };
+		1E19060821E97A3B00434823 /* two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = two.swift; sourceTree = "<group>"; };
+		1E19060A21E97C0E00434823 /* three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = three.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				1E1905D121E977AF00434823 /* AppDelegate.swift */,
 				1E1905D321E977AF00434823 /* ViewController.swift */,
+				1E19060621E978C100434823 /* one.swift */,
+				1E19060821E97A3B00434823 /* two.swift */,
+				1E19060A21E97C0E00434823 /* three.swift */,
 				1E1905D521E977AF00434823 /* Main.storyboard */,
 				1E1905DB21E977B100434823 /* Assets.xcassets */,
 				1E1905DD21E977B100434823 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E19060B21E97C0E00434823 /* three.swift in Sources */,
+				1E19060921E97A3B00434823 /* two.swift in Sources */,
 				1E1905D421E977AF00434823 /* ViewController.swift in Sources */,
 				1E1905DA21E977AF00434823 /* leetcode.xcdatamodeld in Sources */,
+				1E19060721E978C100434823 /* one.swift in Sources */,
 				1E1905D221E977AF00434823 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
